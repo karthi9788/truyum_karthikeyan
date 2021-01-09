@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style/style.css"/>
+        <script src="js/script.js"></script>
+        
+    </head>
+    <body>
+        <header >
+            <label class="title">
+                truYum 
+            </label>
+            <img src="images/img.jpg"/>
+            <nav>
+                <a class="button" href="menu-item-list-admin.html">
+                    Menu
+                </a>
+            </nav>
+        </header>
+        <section class="editbody">
+            <div class="tit1">
+                Edit Menu Item
+            </div></br>
+            <form class="edituserinp">
+                <label for="product">
+                    Name
+                </label></br>
+                <input type="name" id="product"  name="title" value="" />
+                </br>
+                <span id="pri">
+                    <label for="price">Price(Rs.)</label></br>
+                    <input type="number" id="price" name="price" value="" />
+                </span>
+                <span id="act">
+                    <label name="inStock">Active</label></br>
+                    <input type="radio" id="choiceyes"  value="" />Yes
+                    <input type="radio" id="choiceno"  value="" />No
+                </span>
+                <span id="dat">
+                    <label for="launch">Date of Launch</label></br>
+                    <input type="date" id="launch" name="dateOfLaunch" value="" />
+                </span>
+                <span id="cat">
+                    <label>Category</label></br>
+                    <select name="category" id="category" value="">
+                        <option value="Starters">Starters</option>
+                        <option value="Main Course">Main Course</option>
+                        <option value="Dessert">Dessert</option>
+                        <option value="Drinks">Drinks</option>
+                        
+                    </select>
+                </span>
+                <div class="delivcheck">
+                    <input type="checkbox" id="delivery" namr="freeDelivery"/>Free Delivary
+                </div>
+                <div >
+                    <button id="saveedit" name="submit"type="submit"><a id="astatus" href="edit-menu-item-status.html">Save</a></button>
+                </div>
+            </form>
+        </section>
+        <footer>
+            Copyright &copy 2019
+        </footer>
+    </body>
+        
+      
+</html>

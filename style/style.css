@@ -1,0 +1,149 @@
+header{
+
+    background-color:#315496;
+    font-family:Arial;
+    color:floralwhite;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 40px;
+    padding-right: 30px;
+    padding-left: 20px;
+    position: relative;
+}
+img {
+    width: 50px;
+    height: 50px;
+    padding-left: 35px;
+  
+}
+.title{
+    font-size: 100%;
+    
+}
+.button{
+    background-color: #315496; border: none;  color: white;  padding: 15px 32px;  text-align: center;    
+    font-size: 16px;margin: 4px 2px;
+    display: inline-block;
+}
+nav{
+    float:right;
+}
+.tit{
+    letter-spacing: 1px;
+    font-size: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+}
+body{
+    font-family:Arial;
+}
+.tableadmin{
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+     
+}
+.Table{
+    color:#615F5F;
+    font-family:Arial;
+    
+    border-collapse:separate;
+    border-spacing:  15px ;
+    
+    }
+th{
+    color:black;
+    font-weight: bold;
+   
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+    
+}
+
+.cen{
+    text-align: center;
+}
+.gap{
+    padding-right: 150px;
+   
+}
+footer{
+    background-color:lightgrey;
+    font-family:Arial;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    position : absolute;
+    bottom:0;
+    width:100%;
+    padding-left : 20px;
+}
+.link{
+    color:black;
+}
+.editbody{
+    padding:8%;
+    margin:auto;
+   
+}
+.tit1{
+    letter-spacing: 1px;
+    font-size: 25px;
+    
+    
+}
+#product{
+    width:1300px;
+    
+}
+.edituserinp{
+    color:dimgrey;
+    font-weight: bold;
+}
+#pri,#act,#dat,#cat{
+    width:25%;
+    float:left;
+    padding-top: 40px;
+    color:dimgrey;
+    font-weight: bold;
+}
+.delivcheck{
+    padding-top:40px;
+    padding-bottom: 40px;
+    color:dimgrey;
+    font-weight: bold;
+    clear:both;
+}
+#saveedit{
+    height:50px;
+    width:140px;
+    color:white;
+    background-color: #315496;
+}
+#astatus{
+    text-decoration: none;
+    color:floralwhite;
+}
+#statustext{
+    font-weight: bold;
+    color:rgb(99, 197, 0);
+    padding-top: 30px;
+}
+.addtocart{
+    font-weight: bold;
+    color:rgb(99, 197, 0);
+    padding-left: 190px;
+    padding-bottom: 10px;
+}
+.emptydiv{
+    color:#615F5F;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.emptylink{
+    color:dodgerblue
+}
